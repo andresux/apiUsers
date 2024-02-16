@@ -1,0 +1,72 @@
+.userArticle {
+    background-color: rgba(237, 238, 240, 0.466);
+    width: 370px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.userName {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 700;
+    text-align: center;
+}
+
+.userArticle hr {
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.userList {
+    padding: 15px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.userItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.userItem span:first-child {
+    color: rgba(128, 128, 128, 0.493);
+}
+
+.userBtns {
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.userDelete {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(192, 30, 30);
+    color: white;
+    transition: transform .25s;
+    cursor: pointer;
+}
+
+.userEdit {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    transition: transform .25s;
+    cursor: pointer;
+}
+
+.userDelete:hover,
+.userEdit:hover {
+    transform: scale(1.1);
+    transition: transform .25s;
+    box-shadow: -1px -1px 1px black;
+}
